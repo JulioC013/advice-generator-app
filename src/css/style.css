@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: Manrope;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%) ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+  max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:hsl(217, 19%, 24%) ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card .numeracao-conselho{
+    color:hsl(150, 100%, 66%);
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.conselho {
+    color:hsl(193, 38%, 86%) ;
+    font-size: 23px;
+    text-align: center;
+    padding: 23px;
+}
+
+.card .botao{
+    
+    height: 60px;
+    width:  60px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    transform: translatey(85%);
+    border: none;
+
+}
+.card picture img {
+    width: 100%;
+}
+
+.card .botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+  }
+
+
+
+
+
